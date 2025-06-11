@@ -187,6 +187,12 @@ section {
   width: 400px;
   margin: auto 0;
 }
+#profile .section__pic-container img {
+  /* width: 100%; */
+  height: 100%;
+  border-radius: 50%;
+  border: 0.2rem rgb(97, 94, 94) solid;
+}
 
 .section__text {
   align-self: center;
@@ -327,12 +333,6 @@ section {
   height: 350px;
   width: 350px;
   margin: auto 0;
-}
-#profile .section__pic-container img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  border: 0.2rem rgb(97, 94, 94) solid;
 }
 
 /* EXPERIENCE SECTION */
